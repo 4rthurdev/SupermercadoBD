@@ -50,7 +50,7 @@ CREATE TABLE Item_Venda (
     FOREIGN KEY (ID_Produto) REFERENCES Produto(ID_Produto)
 );
 
-CREATE TABLE Funcionário (
+CREATE TABLE Funcionario (
     ID_Funcionário INT AUTO_INCREMENT PRIMARY KEY,
     Nome VARCHAR(100),
     Cargo VARCHAR(50),
